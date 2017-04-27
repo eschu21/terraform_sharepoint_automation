@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -File C:\Scripts\2-SQL-install.ps1

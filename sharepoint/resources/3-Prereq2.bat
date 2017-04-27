@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -File C:\Scripts\3-Prereq2.ps1

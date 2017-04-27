@@ -1,0 +1,1 @@
+powershell.exe -version 4 -ExecutionPolicy Bypass -File C:\Scripts\5-Create-farm.ps1

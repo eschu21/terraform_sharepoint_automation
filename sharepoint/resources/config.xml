@@ -1,0 +1,19 @@
+<Configuration>
+	<Package Id="sts">
+		<Setting Id="LAUNCHEDFROMSETUPSTS" Value="Yes"/>
+	</Package>
+
+	<Package Id="spswfe">
+		<Setting Id="SETUPCALLED" Value="1"/>
+	</Package>
+
+	<Logging Type="verbose" Path="%temp%" Template="SharePoint Server Setup(*).log"/>
+	<PIDKEY Value="NQGJR-63HC8-XCRQH-MYVCH-3J3QR" />
+	<Display Level="none" CompletionNotice="no" />
+	<DATADIR Value="D:\Sharepoint\data"/>
+	<INSTALLLOCATION Value="D:\Sharepoint"/>
+	<Setting Id="SERVERROLE" Value="APPLICATION"/>
+	<Setting Id="USINGUIINSTALLMODE" Value="0"/>
+	<Setting Id="SETUP_REBOOT" Value="Never" />
+	<Setting Id="SETUPTYPE" Value="CLEAN_INSTALL"/>
+</Configuration>

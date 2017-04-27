@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -File C:\Scripts\4-Install.ps1
