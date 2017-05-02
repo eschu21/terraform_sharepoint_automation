@@ -1,5 +1,8 @@
 ## Provider Variables ##
-
+variable "aws_region" {
+  description = "The region for deployment"
+  default = "us-east-1"
+}
 
 variable "key_name" {
   description = "Name of the SSH keypair to use in AWS."
